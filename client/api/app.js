@@ -8,7 +8,7 @@ export const getMessage = async ({ id, password }) => {
 };
 
 export const createMessage = async (content) => {
-  return await axios.post(`http://localhost:4004`, {
+  return await axios.post(process.env.NEXT_PUBLIC_API_URL, {
     content,
   });
 };

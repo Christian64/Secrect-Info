@@ -13,7 +13,10 @@ export const Header = () => {
           <Image src="../logo.png" w={300} />
         </NextLink>
         <HStack hideBelow="md" spacing={10} mr={10}>
-          <NextLink href="https://www.github.com/Christian64" passHref>
+          <NextLink
+            href="https://www.github.com/Christian64/Secrect-Info"
+            passHref
+          >
             <Link fontSize="lg">🐙 Github</Link>
           </NextLink>
           <NextLink href="https://www.christianabreu.dev" passHref>
