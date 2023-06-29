@@ -16,7 +16,7 @@ export const Author = () => {
     >
       <NextLink target="_blank" href="https://www.christianabreu.dev" passHref>
         <Link>
-          Made It By <b>Christian Abreu</b>
+          ⚙️ Made It By <b>Christian Abreu</b>
         </Link>
       </NextLink>
     </Box>

@@ -1,7 +1,5 @@
 import { Heading, Textarea, Button, useMediaQuery } from "@chakra-ui/react";
 export const MessageForm = ({ handleSubmit }) => {
-  // const [isMobile] = useMediaQuery("(min-width: 415px)");
-
   return (
     <>
       <form style={{ width: "100%" }} onSubmit={handleSubmit}>
@@ -9,8 +7,8 @@ export const MessageForm = ({ handleSubmit }) => {
           size="lg"
           bg="white"
           name="content"
-          variant="filled"
           boxShadow="md"
+          border="none"
           rows={15}
           p={4}
           placeholder="This is my secrect message ....."

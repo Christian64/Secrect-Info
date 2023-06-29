@@ -77,13 +77,11 @@ export default function GetMessage() {
             </Button>
           </form>
         </Box>
-        {/* <Box bg="white" borderRadius={5} boxShadow="md" my={4} p={4} w="100%"> */}
         <NextLink href="/" passHref style={{ width: "100%" }}>
           <Button mt={4} colorScheme="yellow" w="100%">
             🏠 Back Home
           </Button>
         </NextLink>
-        {/* </Box> */}
       </Flex>
     </VStack>
   );

@@ -17,10 +17,10 @@ export const Header = () => {
             <Link fontSize="lg">🐙 Github</Link>
           </NextLink>
           <NextLink href="https://www.christianabreu.dev" passHref>
-            <Link fontSize="lg">🚀 Projects</Link>
+            <Link fontSize="lg">🚀 More Projects</Link>
           </NextLink>
           <NextLink href="https://www.christianabreu.dev" passHref>
-            <Link fontSize="lg">Contact Me!</Link>
+            <Link fontSize="lg">📤 Contact Me!</Link>
           </NextLink>
         </HStack>
       </HStack>

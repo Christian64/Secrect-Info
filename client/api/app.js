@@ -1,7 +1,8 @@
 import axios from "axios";
 
 export const getMessage = async ({ id, password }) => {
-  return await axios.post(`http://localhost:4004/${id}`, {
+  console.log(process.env.NEXT_PUBLIC_API_URL);
+  return await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/${id}`, {
     password,
   });
 };

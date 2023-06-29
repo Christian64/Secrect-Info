@@ -39,7 +39,7 @@ export default function Home() {
       <Author />
 
       <Head>
-        <title>Hidden Messages</title>
+        <title>Secrect Info</title>
       </Head>
 
       <Header />
