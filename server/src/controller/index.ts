@@ -15,7 +15,7 @@ export const create = async (req: Request, res: Response) => {
   }
 };
 
-export const list = async (req: Request, res: Response) => {
+export const messages = async (req: Request, res: Response) => {
   try {
     const messages = await Message.find({});
     res.json(messages);

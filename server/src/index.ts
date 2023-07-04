@@ -1,5 +1,5 @@
-import dotenvConfig from "dotenv";
-dotenvConfig.config({ path: `${__dirname}/.env` });
+import { config } from "dotenv";
+config();
 import "./db";
 
 import express from "express";
