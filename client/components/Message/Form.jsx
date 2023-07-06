@@ -1,4 +1,5 @@
-import { Heading, Textarea, Button, useMediaQuery } from "@chakra-ui/react";
+import { Textarea, Button } from "@chakra-ui/react";
+
 export const MessageForm = ({ handleSubmit }) => {
   return (
     <>

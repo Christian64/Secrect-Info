@@ -7,6 +7,7 @@ import {
   Flex,
   Button,
 } from "@chakra-ui/react";
+import { Router, useRouter } from "next/router";
 import { MessageForm } from "@/components/Message/Form";
 import { createMessage } from "@/api/app";
 import { useState } from "react";
@@ -74,7 +75,7 @@ export default function Home() {
             <Divider mb={4} />
             <Result
               label="URL"
-              data={`http://localhost:3000/messages/${data._id}`}
+              data={`${process.env.NEXT_PUBLIC_SITE_URL}/messages/${data._id}`}
             />
             <Result label="Password" data={data.password} />
             <Button
